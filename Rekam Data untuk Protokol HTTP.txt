@@ -1,0 +1,118 @@
+Frame 372437: Packet, 222 bytes on wire (1776 bits), 222 bytes captured (1776 bits) on interface \Device\NPF_{554B28D5-E835-4BB3-B317-9829D913B911}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{554B28D5-E835-4BB3-B317-9829D913B911})
+        Interface name: \Device\NPF_{554B28D5-E835-4BB3-B317-9829D913B911}
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 20, 2026 17:29:17.117640600 SE Asia Standard Time
+    UTC Arrival Time: Oct 20, 2026 10:29:17.117640600 UTC
+    Epoch Arrival Time: 1792492157.117640600
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 1.800 microseconds]
+    [Time delta from previous displayed frame: 26.889500 milliseconds]
+    [Time since reference or first frame: 21 minutes, 34.487147100 seconds]
+    Frame Number: 372437
+    Frame Length: 222 bytes (1776 bits)
+    Capture Length: 222 bytes (1776 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:data-text-lines]
+    Character encoding: ASCII (0)
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: VMware_9f:e1:85 (00:50:56:9f:e1:85), Dst: AzureWaveTec_85:4e:33 (ec:2e:98:85:4e:33)
+    Destination: AzureWaveTec_85:4e:33 (ec:2e:98:85:4e:33)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_9f:e1:85 (00:50:56:9f:e1:85)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 23.50.90.240, Dst: 10.252.135.81
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x40 (DSCP: CS2, ECN: Not-ECT)
+        0100 00.. = Differentiated Services Codepoint: Class Selector 2 (16)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 208
+    Identification: 0x048b (1163)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 249
+    Protocol: TCP (6)
+    Header Checksum: 0x77ed [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 23.50.90.240
+    Destination Address: 10.252.135.81
+    [Stream index: 1491]
+Transmission Control Protocol, Src Port: 80, Dst Port: 61008, Seq: 1, Ack: 126, Len: 168
+    Source Port: 80
+    Destination Port: 61008
+    [Stream index: 361]
+    [Stream Packet Number: 6]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 168]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 3917716250
+    [Next Sequence Number: 169    (relative sequence number)]
+    Acknowledgment Number: 126    (relative ack number)
+    Acknowledgment number (raw): 2808491578
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 501
+    [Calculated window size: 64128]
+    [Window size scaling factor: 128]
+    Checksum: 0x0e6a [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 57.696200 milliseconds]
+        [Time since previous frame in this TCP stream: 1.800 microseconds]
+    [SEQ/ACK analysis]
+        [iRTT: 30.482300 milliseconds]
+        [Bytes in flight: 168]
+        [Bytes sent since last PSH flag: 168]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (168 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Content-Type: text/html\r\n
+    Content-Length: 43\r\n
+        [Content length: 43]
+    Date: Tue, 20 Oct 2026 10:29:17 GMT\r\n
+    Connection: keep-alive\r\n
+    \r\n
+    [Request in frame: 372434]
+    [Time since request: 26.889500 milliseconds]
+    [Request URI: /wxdata/weather/local/SPXX0050?cc=*&unit=m]
+    [Full request URI: http://wxdata.weather.com/wxdata/weather/local/SPXX0050?cc=*&unit=m]
+    File Data: 43 bytes
+Line-based text data: text/html (1 lines)
+    This service is deprecated as of 01/15/2020

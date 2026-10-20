@@ -1,0 +1,84 @@
+Frame 290942: Packet, 75 bytes on wire (600 bits), 75 bytes captured (600 bits) on interface \Device\NPF_{554B28D5-E835-4BB3-B317-9829D913B911}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{554B28D5-E835-4BB3-B317-9829D913B911})
+        Interface name: \Device\NPF_{554B28D5-E835-4BB3-B317-9829D913B911}
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 20, 2026 17:24:59.005255800 SE Asia Standard Time
+    UTC Arrival Time: Oct 20, 2026 10:24:59.005255800 UTC
+    Epoch Arrival Time: 1792491899.005255800
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 80.584900 milliseconds]
+    [Time delta from previous displayed frame: 7 minutes, 41.621778800 seconds]
+    [Time since reference or first frame: 17 minutes, 16.374762300 seconds]
+    Frame Number: 290942
+    Frame Length: 75 bytes (600 bits)
+    Capture Length: 75 bytes (600 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+    Character encoding: ASCII (0)
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: AzureWaveTec_85:4e:33 (ec:2e:98:85:4e:33), Dst: VMware_9f:e1:85 (00:50:56:9f:e1:85)
+    Destination: VMware_9f:e1:85 (00:50:56:9f:e1:85)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AzureWaveTec_85:4e:33 (ec:2e:98:85:4e:33)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 10.252.135.81, Dst: 10.252.128.3
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 61
+    Identification: 0x18fd (6397)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0467 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.252.135.81
+    Destination Address: 10.252.128.3
+    [Stream index: 76]
+User Datagram Protocol, Src Port: 58833, Dst Port: 53
+    Source Port: 58833
+    Destination Port: 53
+    Length: 41
+    Checksum: 0xfc30 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 5089]
+    [Stream Packet Number: 1]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (33 bytes)
+Domain Name System (query)
+    Transaction ID: 0x7699
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        wpad.pens.ac.id: type A, class IN
+            Name: wpad.pens.ac.id
+            [Name Length: 15]
+            [Label Count: 4]
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+    [Response In: 290944]

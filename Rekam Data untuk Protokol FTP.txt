@@ -1,0 +1,104 @@
+Frame 218823: Packet, 77 bytes on wire (616 bits), 77 bytes captured (616 bits) on interface \Device\NPF_{554B28D5-E835-4BB3-B317-9829D913B911}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{554B28D5-E835-4BB3-B317-9829D913B911})
+        Interface name: \Device\NPF_{554B28D5-E835-4BB3-B317-9829D913B911}
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 20, 2026 17:20:51.869170300 SE Asia Standard Time
+    UTC Arrival Time: Oct 20, 2026 10:20:51.869170300 UTC
+    Epoch Arrival Time: 1792491651.869170300
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 1.900 microseconds]
+    [Time delta from previous displayed frame: 18.395700 milliseconds]
+    [Time since reference or first frame: 13 minutes, 9.238676800 seconds]
+    Frame Number: 218823
+    Frame Length: 77 bytes (616 bits)
+    Capture Length: 77 bytes (616 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:ftp]
+    Character encoding: ASCII (0)
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Cisco_bb:fa:06 (c8:28:e5:bb:fa:06), Dst: AzureWaveTec_85:4e:33 (ec:2e:98:85:4e:33)
+    Destination: AzureWaveTec_85:4e:33 (ec:2e:98:85:4e:33)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Cisco_bb:fa:06 (c8:28:e5:bb:fa:06)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 25]
+Internet Protocol Version 4, Src: 202.9.85.80, Dst: 10.252.135.81
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 63
+    Identification: 0x1efc (7932)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 63
+    Protocol: TCP (6)
+    Header Checksum: 0x6b16 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 202.9.85.80
+    Destination Address: 10.252.135.81
+    [Stream index: 1290]
+Transmission Control Protocol, Src Port: 21, Dst Port: 51005, Seq: 563, Ack: 142, Len: 23
+    Source Port: 21
+    Destination Port: 51005
+    [Stream index: 308]
+    [Stream Packet Number: 30]
+    [Conversation completeness: Incomplete, DATA (15)]
+        ..0. .... = RST: Absent
+        ...0 .... = FIN: Absent
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ··DASS]
+    [TCP Segment Len: 23]
+    Sequence Number: 563    (relative sequence number)
+    Sequence Number (raw): 263419137
+    [Next Sequence Number: 586    (relative sequence number)]
+    Acknowledgment Number: 142    (relative ack number)
+    Acknowledgment number (raw): 1546623595
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0xeebc [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.995455400 seconds]
+        [Time since previous frame in this TCP stream: 18.395700 milliseconds]
+    [SEQ/ACK analysis]
+        [iRTT: 3.738200 milliseconds]
+        [Bytes in flight: 90]
+        [Bytes sent since last PSH flag: 23]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (23 bytes)
+File Transfer Protocol (FTP)
+    226 Transfer complete\r\n
+        Response code: Closing data connection (226)
+        Response arg: Transfer complete
+[Current working directory: /]
